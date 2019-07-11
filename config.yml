@@ -1,0 +1,80 @@
+# PvPingMobCoins by Tox
+
+# Sounds 1.8-1.12
+# Can be found here: https://pastebin.com/XjSDqs6M
+# Format: [sound];[volume];[pitch]
+sounds:
+  mobcoins-set: ORB_PICKUP;1.0;1.0
+  mobcoins-given: ORB_PICKUP;1.0;1.0
+  mobcoins-reset: GLASS;1.0;1.0
+  mobcoins-remove: GLASS;1.0;1.0
+  transfer-open: BAT_TAKEOFF;1.0;1.0
+  transfer-purchase: LEVEL_UP;1.0;1.0
+  coin-received: FIREWORK_TWINKLE;1.0;1.0
+  coin-redeem: FIREWORK_TWINKLE;1.0;1.0
+  pouch-given: ORB_PICKUP;1.0;1.0
+  pouch-redeem: FIREWORK_TWINKLE;1.0;1.0
+
+# Particles 1.8-1.12
+# Can be found here: https://pastebin.com/KFqp9GXD
+# Format: [particle];[x_offset];[y_offset];[z_offset];[speed];[amount]
+particles:
+  mobcoins-set: CLOUD;2.0;2.0;2.0;2.0;50
+  mobcoins-given: CLOUD;2.0;2.0;2.0;2.0;50
+  mobcoins-reset: LAVA;2.0;2.0;2.0;2.0;50
+  mobcoins-remove: LAVA;2.0;2.0;2.0;2.0;50
+  transfer-open: LAVA;2.0;2.0;2.0;2.0;50
+  transfer-purchase: CLOUD;2.0;2.0;2.0;2.0;50
+  coin-received: FIREWORKS_SPARK;2.0;2.0;2.0;2.0;50
+  coin-redeem: FIREWORKS_SPARK;2.0;2.0;2.0;2.0;50
+  pouch-given: CLOUD;2.0;2.0;2.0;2.0;50
+  pouch-redeem: FIREWORKS_SPARK;2.0;2.0;2.0;2.0;50
+
+options:
+  #Should /mobcoins open the transfer menu?
+  mobcoins-opens-transfer: true
+  #How the coins should be formatted (IE: #,### = 1,000 or 10,000, etc)
+  decimal-format: "#,###"
+  #Should killing mobs drop a physical coin?
+  drop-physical-coin: true
+  #Should prefix: in messages.yml be used in front of all messages?
+  use-prefix: false
+
+
+# Mobs 1.8-1.12
+# Can be found here: https://pastebin.com/w6vYtnqK
+# Format: [entity_name];[chance];[amount]
+mob:
+  use: true
+  mob-list:
+    - BLAZE;5;1
+    - SKELETON;5;1
+    - ZOMBIE;5;1
+    - CREEPER;8;1
+    - ENDERMAN;8;1
+    - WITHER;50;1
+
+# You can customize these to whatever you like
+permissions:
+  admin: "pvpingmobcoins.admin"
+  mobcoins: "pvpingmobcoins.mobcoins"
+  transfer: "pvpingmobcoins.transfer"
+
+items:
+  coin:
+    material: DOUBLE_PLANT:0
+    name: "&e&l{amount} Mob Coin(s) &7(Right Click)"
+    lore:
+      - "&7&oYou can use these in /transfer menu to"
+      - "&7&opurchase ranks, crate keys, and more!"
+      - ""
+      - " &8Â» &e&lAmount &f{amount}"
+
+  pouch:
+    material: GLASS_BOTTLE:0
+    name: "&6&lMob Coin Pouch &7(Right Click)"
+    lore:
+      - "&7Right-Click in hand to receive"
+      - "&7a random amount of Mob Coins!"
+      - ""
+      - "&6* &e{min}-{max} Mob Coins"
