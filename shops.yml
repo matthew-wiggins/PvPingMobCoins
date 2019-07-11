@@ -1,0 +1,378 @@
+pages:
+  transfer:
+    options:
+      size: 54
+      title: "&8Transfer Menu"
+      default: true
+    items:
+      '0':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 0
+      '1':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 1
+      '2':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 2
+      '3':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 3
+      '4':
+        material: DOUBLE_PLANT:0
+        amount: 1
+        name: "&e&l(!) &eYou have &6&n{coins}&e Mob Coins."
+        lore: []
+        slot: 4
+      '5':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 5
+      '6':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 6
+      '7':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 7
+      '8':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 8
+      '9':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 9
+      '17':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 17
+      '18':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 18
+      '26':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 26
+      '27':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 27
+      '35':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 35
+      '36':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 36
+      '44':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 44
+      '45':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 45
+      '46':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 46
+      '47':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 47
+      '48':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 48
+      '49':
+        material: BOOK:0
+        amount: 1
+        name: "&8&m-----------------------------------"
+        lore:
+          - "&eMob Coins &7can be earned by killing &e&lHOSTILE&7 mobs."
+          - "&eMob Coins &7will allow you to buy items from the Transfer Menu."
+          - ""
+          - "&6&lAvailable Hostile Mobs:"
+          - "&8Â» &eSkeletons, Zombies, and Blazes &8(&75%&8)"
+          - "&8Â» &eCreepers, and Endermen &8(&78%&8)"
+          - "&8Â» &eWithers &8(&750%&8)"
+        slot: 49
+      '50':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 50
+      '51':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 51
+      '52':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 52
+      '53':
+        material: PAPER:0
+        amount: 1
+        name: "&e&lNext Page ->"
+        lore:
+          - " &6* &eINFO: &7Click to go to the next page!"
+        slot: 53
+        page: "transfer2"
+  transfer2:
+    options:
+      size: 54
+      title: "&8Transfer Menu"
+    items:
+      '0':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 0
+      '1':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 1
+      '2':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 2
+      '3':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 3
+      '4':
+        material: DOUBLE_PLANT:0
+        amount: 1
+        name: "&e&l(!) &eYou have &6&n{coins}&e Mob Coins."
+        lore: []
+        slot: 4
+      '5':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 5
+      '6':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 6
+      '7':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 7
+      '8':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 8
+      '9':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 9
+      '13':
+        material: IRON_SWORD:0
+        amount: 1
+        name: "&6&lDagger Sword"
+        lore:
+          - " &6* &eINFO: &fThe best sword"
+          - "   &fon the server. You can't"
+          - "   &fpass up this deal!"
+          - ""
+          - " &6* &ePRICE: &7100 coins"
+          - ""
+          - "&7&o(( Click to &f&opurchase &7&othis &f&o'&6&l&oDagger Sword&f&o'&7&o! ))"
+        price: 100
+        slot: 13
+        enchanted: true
+        skull:
+          use: true
+          name: MattFTP
+        permission:
+          use: false
+          permission: dagger.use
+        commands:
+          use: false
+          commands:
+            - "eco give {player} 1000"
+        items:
+          use: true
+          items:
+            1:
+              material: IRON_SWORD:0
+              amount: 1
+              name: "&6&lDagger Sword"
+              lore: []
+              enchants:
+                - DAMAGE_ALL:5
+                - DURABILITY:3
+      '17':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 17
+      '18':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 18
+      '26':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 26
+      '27':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 27
+      '35':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 35
+      '36':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 36
+      '44':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 44
+      '45':
+        material: PAPER:0
+        amount: 1
+        name: "&e&l<- Previous Page"
+        lore:
+          - " &6* &eINFO: &7Click to go to the previous page!"
+        slot: 45
+        page: "transfer"
+      '46':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 46
+      '47':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 47
+      '48':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 48
+      '49':
+        material: BOOK:0
+        amount: 1
+        name: "&8&m-----------------------------------"
+        lore:
+          - "&eMob Coins &7can be earned by killing &e&lHOSTILE&7 mobs."
+          - "&eMob Coins &7will allow you to buy items from the Transfer Menu."
+          - ""
+          - "&6&lAvailable Hostile Mobs:"
+          - "&8Â» &eSkeletons, Zombies, and Blazes &8(&75%&8)"
+          - "&8Â» &eCreepers, and Endermen &8(&78%&8)"
+          - "&8Â» &eWithers &8(&750%&8)"
+        slot: 49
+      '50':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 50
+      '51':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 51
+      '52':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 52
+      '53':
+        material: '160:15'
+        amount: 1
+        name: ""
+        lore: []
+        slot: 53
