@@ -9,61 +9,58 @@ under-zero: "&c&l(!) &cYou may not use numbers under 1!"
 inventory-full: "&c&l(!) &cYou must have inventory space to withdraw coins."
 only-players: "&c&l(!) &cOnly players may do this."
 incorrect-usage: "&c&l(!) &cIncorrect Usage: {command}"
+cannot-redeem: "&c&l(!) &cYou cannot use that item in your offhand!"
 
-transfer:
-  open-transfer: "&e&l(!) &eOpening transfer shop..."
-  not-enough: "&c&l(!) &cYou don't have enough mobcoins for this item."
-  successful-purchase: "&e&l(!) &eYou have successfully bought this item for &6{price} &emobcoins."
+commands:
+  transfer:
+    open-transfer: "&e&l(!) &eOpening transfer shop..."
+    not-enough: "&c&l(!) &cYou don't have enough mobcoins for this item."
+    successful-purchase: "&e&l(!) &eYou have successfully bought this item for &6{price} &emobcoins."
+    on-ground: "&c&l(!) &cThe purchase was successful but your inventory was full and the item dropped on the ground!"
+  set:
+    set-admin: "&e&l(!) &eYou set &6{player}'s&e mobcoins amount to &6{value}&e."
+    set-player: "&e&l(!) &eYour &6mobcoins &eamount has been set to &6{value}&e."
+  remove:
+    remove-admin: "&e&l(!) &eYou removed &6{value}&e mobcoins from &6{player}'s&e balance."
+    remove-player: "&e&l(!) &6{value} &emobcoins have been taken from your account."
+  give:
+    give-admin: "&e&l(!) &eYou have given &6{player} {value} &emobcoins."
+    give-player: "&e&l(!) &eYou have been given &6{value}&e mobcoins."
+  reset:
+    reset-admin: "&e&l(!) &eYou have reset &6{player}'s&e mobcoins amount."
+    reset-player: "&e&l(!) &eYour &6mobcoins &eamount has been reset."
+  coin:
+    coin-received: "&a&l+ ☼{amount} Mob Coins"
+    coin-redeem: "&a&l+ ☼{amount} Mob Coins"
+    on-ground: "&c&l(!) &cYour inventory was full. The coin dropped on the floor."
+  withdraw:
+    withdraw-success: "&e&l(!) &eYou have successfully withdrawn &6&n{amount}&e Mob Coins."
+    not-enough: "&c&l(!) &cYou don't have enough mobcoins to withdraw that much."
+  pouch:
+    pouch-admin: "&e&l(!) &eYou have &6{player} &f{amount}x &7{min}-{max} &eMob Coin Pouch(es)."
+    pouch-player: "&e&l(!) &eYou have been given &f{amount}x &7{min}-{max} &eMob Coin Pouch(es)."
+    on-ground: "&c&l(!) &cYour inventory was full. The pouch dropped on the floor."
+    pouch-redeem: "&a&l+ ☼{amount} Mob Coins"
+    min-greater: "&c&l(!) &cThe minimum value for the pouch cannot be greater then the maximum value."
+  viewcoins:
+    player-balance-format:
+      - "&e&lYour Mob Coins: &f{amount}"
+      - "&7Use /transfer or /mobcoins withdraw to transfer Mob Coins."
+    others-balance-format:
+      - "&e&l{player}'s Mob Coins: &f{amount}"
+      - "&7Use /transfer or /mobcoins withdraw to transfer Mob Coins."
 
-set:
-  set-admin: "&e&l(!) &eYou set &6{player}'s&e mobcoins amount to &6{value}&e."
-  set-player: "&e&l(!) &eYour &6mobcoins &eamount has been set to &6{value}&e."
-
-remove:
-  remove-admin: "&e&l(!) &eYou removed &6{value}&e mobcoins from &6{player}'s&e balance."
-  remove-player: "&e&l(!) &6{value} &emobcoins have been taken from your account."
-
-give:
-  give-admin: "&e&l(!) &eYou have given &6{player} {value} &emobcoins."
-  give-player: "&e&l(!) &eYou have been given &6{value}&e mobcoins."
-
-reset:
-  reset-admin: "&e&l(!) &eYou have reset &6{player}'s&e mobcoins amount."
-  reset-player: "&e&l(!) &eYour &6mobcoins &eamount has been reset."
-
-coin:
-  coin-received: "&a&l+ â˜¼{amount} Mob Coins"
-  coin-redeem: "&a&l+ â˜¼{amount} Mob Coins"
-
-withdraw:
-  withdraw-success: "&e&l(!) &eYou have successfully withdrawn &6&n{amount}&e Mob Coins."
-  not-enough: "&c&l(!) &cYou don't have enough mobcoins to withdraw that much."
-
-pouch:
-  pouch-admin: "&e&l(!) &eYou have &6{player} &f{amount}x &7{min}-{max} &eMob Coin Pouch(es)."
-  pouch-player: "&e&l(!) &eYou have been given &f{amount}x &7{min}-{max} &eMob Coin Pouch(es)."
-  on-ground: "&c&l(!) &cYour inventory was full. The pouch dropped on the floor."
-  pouch-redeem: "&a&l+ â˜¼{amount} Mob Coins"
-
-viewcoins:
-  player-balance-format:
-    - "&e&lYour Mob Coins: &f{amount}"
-    - "&7Use /transfer or /mobcoins withdraw to transfer Mob Coins."
-  others-balance-format:
-    - "&e&l{player}'s Mob Coins: &f{amount}"
-    - "&7Use /transfer or /mobcoins withdraw to transfer Mob Coins."
-
-command:
+help:
   admin:
     - "&e&l(!) &eAdmin Commands:"
-    - " &8Â» &f/mobcoins &7give <player> <amount>"
-    - " &8Â» &f/mobcoins &7set <player> <amount>"
-    - " &8Â» &f/mobcoins &7remove <player> <amount>"
-    - " &8Â» &f/mobcoins &7reset <player>"
-    - " &8Â» &f/mobcoins &7reload"
-    - " &8Â» &f/mobcoins &7pouch <player> <min> <max> <amount>"
-    - " &8Â» &f/mobcoins &7asmember"
+    - " &8» &f/mobcoins &7give <player> <amount>"
+    - " &8» &f/mobcoins &7set <player> <amount>"
+    - " &8» &f/mobcoins &7remove <player> <amount>"
+    - " &8» &f/mobcoins &7reset <player>"
+    - " &8» &f/mobcoins &7reload"
+    - " &8» &f/mobcoins &7pouch <player> <min> <max> <amount>"
+    - " &8» &f/mobcoins &7asmember"
   mobcoins:
     - "&e&l(!) &eMobCoins Commands:"
-    - " &8Â» &f/mobcoins &7withdraw <amount>"
-    - " &8Â» &f/mobcoins &7viewcoins <player>"
+    - " &8» &f/mobcoins &7withdraw <amount>"
+    - " &8» &f/mobcoins &7viewcoins <player>"
