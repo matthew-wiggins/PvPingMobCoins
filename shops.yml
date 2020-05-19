@@ -140,9 +140,9 @@ pages:
           - "&eMob Coins &7will allow you to buy items from the Transfer Menu."
           - ""
           - "&6&lAvailable Hostile Mobs:"
-          - "&8Â» &eSkeletons, Zombies, and Blazes &8(&75%&8)"
-          - "&8Â» &eCreepers, and Endermen &8(&78%&8)"
-          - "&8Â» &eWithers &8(&750%&8)"
+          - "&8» &eSkeletons, Zombies, and Blazes &8(&75%&8)"
+          - "&8» &eCreepers, and Endermen &8(&78%&8)"
+          - "&8» &eWithers &8(&750%&8)"
         slot: 49
       '50':
         material: '160:15'
@@ -263,7 +263,7 @@ pages:
         items:
           use: true
           items:
-            1:
+            '1':
               material: IRON_SWORD:0
               amount: 1
               name: "&6&lDagger Sword"
@@ -348,9 +348,9 @@ pages:
           - "&eMob Coins &7will allow you to buy items from the Transfer Menu."
           - ""
           - "&6&lAvailable Hostile Mobs:"
-          - "&8Â» &eSkeletons, Zombies, and Blazes &8(&75%&8)"
-          - "&8Â» &eCreepers, and Endermen &8(&78%&8)"
-          - "&8Â» &eWithers &8(&750%&8)"
+          - "&8» &eSkeletons, Zombies, and Blazes &8(&75%&8)"
+          - "&8» &eCreepers, and Endermen &8(&78%&8)"
+          - "&8» &eWithers &8(&750%&8)"
         slot: 49
       '50':
         material: '160:15'
