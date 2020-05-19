@@ -68,7 +68,7 @@ items:
       - "&7&oYou can use these in /transfer menu to"
       - "&7&opurchase ranks, crate keys, and more!"
       - ""
-      - " &8Â» &e&lAmount &f{amount}"
+      - " &8» &e&lAmount &f{amount}"
 
   pouch:
     material: GLASS_BOTTLE:0
