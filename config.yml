@@ -54,12 +54,6 @@ mob:
     - ENDERMAN;8;1
     - WITHER;50;1
 
-# You can customize these to whatever you like
-permissions:
-  admin: "pvpingmobcoins.admin"
-  mobcoins: "pvpingmobcoins.mobcoins"
-  transfer: "pvpingmobcoins.transfer"
-
 items:
   coin:
     material: DOUBLE_PLANT:0
